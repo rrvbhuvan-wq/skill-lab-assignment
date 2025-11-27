@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Destinations</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>Destinations</h1>
+</header>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="destination.html">Destinations</a>
+    <a href="hotels.html">Hotels & Stays</a>
+    <a href="events.html">Events & Festivals</a>
+    <a href="booking.html">Booking</a>
+</nav>
+<div class="container">
+    <div class="filter">
+        <label>Filter by Category:</label>
+        <select onchange="loadDestinations(this.value)">
+            <option>All</option>
+            <option>Beach</option>
+            <option>Temple</option>
+            <option>Trekking</option>
+        </select>
+    </div>
+        <div id="destinations-list">
+            <div class="card">
+                <img src="https://s3.india.com/wp-content/uploads/2024/02/Panambur-Beach.jpg" alt="Panambur Beach" />
+                <h3>Panambur Beach</h3>
+                <p>Golden sands and beautiful sunsets. A popular beach for families and water sports.</p>
+            </div>
+            <div class="card">
+                <img src="https://s7ap1.scene7.com/is/image/incredibleindia/1-kudroli-temple-mangalore-karnataka-attr-hero?qlt=82&ts=1726722399469" alt="Kudroli Temple" />
+                <h3>Kudroli Temple</h3>
+                <p>Historic temple with stunning architecture and vibrant festivals.</p>
+            </div>
+            <div class="card">
+                <img src="https://uchilamahalakshmitemple.com/wp-content/uploads/2024/09/IMG-20220827-WA0091.jpg" alt="Uchila Mahalakshmi Temple" />
+                <h3>Uchila Mahalakshmi Temple</h3>
+                <p>Famous temple built in Udupi.</p>
+            </div>
+            <div class="card">
+                <img src="https://mangaloretourism.in/images/places-to-visit/header/someshwar-beach-mangalore-tourism-entry-fee-timings-holidays-reviews-header.jpg" alt="Someshwara Beach" />
+                <h3>Someshwara Beach</h3>
+                <p>Famous for its rocky shoreline and scenic sunsets.</p>
+            </div>
+            <div class="card">
+                <img src="https://temple.yatradham.org/public/Product/temple/temple_qID0YQIM_202505071643410.webp" alt="Kateel Shree Durga Parameshwari Temple" />
+                <h3>Kateel Shree Durga Parameshwari Temple</h3>
+                <p>This temple is formed for its peaceful ambience and devotion.</p>
+            </div>
+             <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF4AKUJ8ir_7i9pUoCgFgK2b8m59L9P2lDUA&s" alt="Pilikula Nisargadhama" />
+                <h3>Pilikula Nisargadhama</h3>
+                <p>Pilikula is a nature and heritage park near Manglore</p>
+            </div>
+             <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGlHz2Rn9kJ0tQz6N099yWWt5j9a1bTRInFA&s" alt="Kadri Park" />
+                <h3>Kadri park</h3>
+                <p>The largest park in the Manglore</p>
+            </div>
+        </div>
+</div>
+</body>
+</html>

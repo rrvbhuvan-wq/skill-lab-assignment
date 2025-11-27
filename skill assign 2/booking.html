@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking / Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body style="background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%); min-height: 100vh; margin: 0;">
+<header>
+    <h1>Booking / Registration</h1>
+</header>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="destinations.html">Destinations</a>
+    <a href="hotels.html">Hotels & Stays</a>
+    <a href="events.html">Events & Festivals</a>
+    <a href="booking.html">Booking</a>
+</nav>
+<div class="container" style="display: flex; justify-content: center; align-items: center; min-height: 60vh;">
+    <form onsubmit="submitBooking(event)" style="background: #fff; border-radius: 16px; box-shadow: 0 4px 24px rgba(0,0,0,0.08); padding: 32px 24px; width: 320px; display: flex; flex-direction: column; gap: 18px; align-items: center;">
+        <h2 style="color: #2d6cdf; margin-bottom: 12px;">Booking Details</h2>
+        <input type="text" id="name" placeholder="Your Name" required style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #bcdffb;">
+        <input type="email" id="email" placeholder="Email" required style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #bcdffb;">
+        <input type="text" id="phone" placeholder="Phone" required style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #bcdffb;">
+        <input type="date" id="date" required style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #bcdffb;">
+        <button type="submit" style="background: #2d6cdf; color: #fff; border: none; border-radius: 8px; padding: 10px 0; width: 100%; font-size: 16px; cursor: pointer;">Submit</button>
+    </form>
+</div>
+</body>
+</html>
